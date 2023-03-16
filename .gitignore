@@ -1,0 +1,5 @@
+*.swp
+*.swo
+test.fmp12
+root.pem
+venv/
