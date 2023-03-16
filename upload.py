@@ -156,6 +156,6 @@ if __name__ == '__main__':
 
     argc = len(sys.argv)
     if argc < 5:
-        print(f'Usage: ./{sys.argv[0]} <host> <username> <password> <file>')
+        print(f'Usage: python3 {sys.argv[0]} <host> <username> <password> <file>')
     else:
         main(*sys.argv[1:5])
